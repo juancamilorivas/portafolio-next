@@ -1,5 +1,17 @@
+import 'bootswatch/dist/cosmo/bootstrap.min.css'
 import '@camilo/styles/globals.css'
+import Head from 'next/head'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <title>Camilo's Portafolio</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
+
+export default MyApp
