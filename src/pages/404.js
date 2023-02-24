@@ -8,7 +8,7 @@ const custom404 = () => (
       <p>
         This page does not exists, please go to
         <Link href="/">
-          <a> Go to home</a>
+          Go to home
         </Link>
       </p>
     </div>

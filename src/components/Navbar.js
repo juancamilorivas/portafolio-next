@@ -3,10 +3,8 @@ import Link from "next/link";
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
     <div className="container">
-     <Link href="/">
-     <a className="navbar-brand" >
+     <Link className="navbar-brand"  href="/">
         Start
-      </a>
      </Link>
       <button
         className="navbar-toggler"
@@ -24,10 +22,8 @@ const Navbar = () => (
           <li className="nav-item">
           </li>
           <li className="nav-item">
-            <Link href="https://github.com/juancamilorivas">
-              <a className="nav-link" >
+            <Link className="nav-link" href="https://github.com/juancamilorivas">
                 GitHub
-              </a>
             </Link>
           </li>
         </ul>

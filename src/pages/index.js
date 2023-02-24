@@ -24,9 +24,9 @@ const Index = () => (
                 this industry, I've honed my analytical thinking and
                 collaboration skills, and I love working with a team
               </p>
-              <a href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
+              <Link href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
                 <h5 className="font-weight-bold">LinkedIn</h5>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Index = () => (
                         {name}
                       </h3>
                       <p>{description}</p>
-                      <a href={url} className="overflow">Know more</a>
+                      <Link href={url} className="overflow">Know more</Link>
                     </div>
                   </div>
                 </div>
@@ -113,8 +113,8 @@ const Index = () => (
             ))}
           </div>
           <div className="text-center mt-4">
-            <Link href="https://github.com/juancamilorivas?tab=repositories">
-              <a className="btn btn-outline-light">More projects</a>
+            <Link className="btn btn-outline-light" href="https://github.com/juancamilorivas?tab=repositories">
+              More projects
             </Link>
           </div>
         </div>
